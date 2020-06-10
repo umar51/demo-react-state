@@ -15,18 +15,18 @@ function Room() {
     //      setlit(!islit);
 
     //  } used the shorter form of func at calling place
-     function increaseAge() {
+    //  function increaseAge() {
       
-        console.log("Increase age Button clicked");
-           setAge(age++);
+    //     console.log("Increase age Button clicked");
+    //        setAge(age++);
   
-       }
+    //    }
 
 
 
     return (
       
-   <div className={'room ${islit ? "lit":"dark"}'}>
+   <div className={'room $ {islit ? lit : dark}'}>
      This is room component, Lit : {islit ? "Lit" : "Dark"}
      <br/>
      <button onClick={()=> {
